@@ -18,7 +18,7 @@
 ✅ Redirect to www  
 ✅ Setup ORM  
 ✅ Use renderToStaticNodeStream for DOM streaming (./app/serverMiddleware.js)  
-✅ Manually create Head metadata  
+✅ Manually create Head metadata without side-effects 
 
 #### Frontend APP
 
