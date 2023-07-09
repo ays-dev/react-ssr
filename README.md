@@ -24,7 +24,7 @@
 
 ✅ Setup Redux actions (./app/modules/article/articleActions.js)  
 ✅ Setup Redux reducers (./app/modules/article/articleReducers.js)  
-✅ Setup Axios ressources (./app/modules/article/./app/modules/article/articleResources.js)  
+✅ Setup Axios ressources (./app/modules/article/articleResources.js)  
 ✅ Cancel pending Axios request on navigation  
 ✅ Debounce Placeholder Component while fetching data for navigation (./app/views/Common/Layout.js)  
 ✅ Handle Head metadata changes on-the-fly  
