@@ -1,0 +1,78 @@
+.column-debug {
+  background-color: rgba(255, 0, 0, 0.05);
+  border-left: 15px solid rgba(255, 0, 0, 0.1);
+  border-right: 15px solid rgba(255, 0, 0, 0.1);
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.debug {
+  pointer-events: none;
+  position: fixed;
+  z-index: 1050;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.debug-lines {
+  background-color: transparent;
+  background-size:1.5em 1.5em;
+  background-position: 0 -13px;
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0) 98%, #000000 100%);
+}
+
+
+.debug-indicators::after {
+  content: 'XL';
+  position: absolute;
+  top: 120px;
+  left: 25px;
+  font-weight: bolder;
+  background-color: tan;
+}
+
+@media screen and (max-width: 1200px) {
+  .debug-indicators::after {
+    content: 'LG';
+    position: absolute;
+    top: 120px;
+    left: 25px;
+    font-weight: bolder;
+    background-color: yellow;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .debug-indicators::after {
+    content: 'MD';
+    position: absolute;
+    top: 120px;
+    left: 25px;
+    font-weight: bolder;
+    background-color: cyan;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .debug-indicators::after {
+    content: 'SM';
+    position: absolute;
+    top: 120px;
+    left: 25px;
+    font-weight: bolder;
+    background-color: lightgreen;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .debug-indicators::after {
+    content: 'XS';
+    position: absolute;
+    top: 120px;
+    left: 25px;
+    font-weight: bolder;
+    background-color: red;
+  }
+}

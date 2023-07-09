@@ -1,0 +1,31 @@
+.ArticleItemSmallCover {
+  border-radius: unset;
+}
+
+.ArticleItemSmallCover-films {
+    background-color: $brand-primary;
+}
+
+.ArticleItemSmallCover-video-games {
+    background-color: $brand-success;
+}
+
+.ArticleItemSmallCover-books {
+    background-color: $brand-info;
+}
+
+.ArticleItemSmallCover-series {
+    background-color: $brand-warning;
+}
+
+.ArticleItemSmallCover-peoples {
+    background-color: $brand-danger;
+}
+
+.ArticleItemSmallCover-places {
+    background-color: $secondary-color;
+}
+
+.ArticleItemSmallCover-albums {
+    background-color: $default-color;
+}

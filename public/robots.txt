@@ -1,0 +1,7 @@
+User-agent: *
+Crawl-delay: 2
+
+Disallow: /api/
+Disallow: /cache/
+Disallow: /img/
+Disallow: /search

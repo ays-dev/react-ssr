@@ -1,0 +1,29 @@
+{
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "jsx-quotes": ["error", "prefer-single"],
+    "react/jsx-uses-vars": [1],
+    "react/jsx-uses-react": [1],
+    "react/jsx-filename-extension": [0],
+    "react/prop-types": [0],
+    "react/no-danger": [0],
+    "react/no-array-index-key": [0],
+    "react/prefer-stateless-function": [0],
+    "jsx-a11y/anchor-is-valid": [0]
+  },
+  "env": {
+    "browser": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": ["airbnb", "../.eslintrc"],
+  "globals": {
+    "ENVIRONMENT": false
+  }
+}

@@ -1,0 +1,10 @@
+node_modules
+\.DS_Store
+dist
+build
+*.log
+npm-debug.log
+\.package-lock.json
+bo/mahout/tmp
+public/cache
+api/ssl
