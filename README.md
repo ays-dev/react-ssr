@@ -28,7 +28,7 @@
 ✅ Cancel pending Axios request on navigation  
 ✅ Debounce Placeholder Component while fetching data for navigation (./app/views/Common/Layout.js)  
 ✅ Handle Head metadata changes on-the-fly  
-✅ Debug Bootstrap columns, metadata, page line-height and height, responsive  
+✅ Debug Bootstrap columns, metadata, page line-height and height, responsiveness  
 
 #### Admin Backoffice
 
